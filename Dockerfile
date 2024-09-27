@@ -7,7 +7,7 @@ RUN apt-get update && \
 
 RUN git clone https://github.com/PikaBotz/Anya_v2-MD anya-v2
 
-WORKDIR /anya-v2
+WORKDIR /yuki
 
 RUN yarn install --production
 
